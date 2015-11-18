@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/InfoGeeker/Codes/ig.test/Go/src/funcproj/src/mymath'
+let g:netrw_dirhist_2='/Users/InfoGeeker/Codes/ig.test/Go/src/funcproj/src'
+let g:netrw_dirhist_3='/Users/InfoGeeker/Codes/ig.test/Go/src/funcproj/src/func'
+let g:netrw_dirhist_4='/Users/InfoGeeker/Codes/ig.test/Go/src/FileOpen/dir'
+let g:netrw_dirhist_5='/Users/InfoGeeker/vimer.me_hexo/source/_posts'
+let g:netrw_dirhist_6='/Users/InfoGeeker/.config/vim/bundle/html5/syntax/html'
+let g:netrw_dirhist_7='/Users/InfoGeeker/Codes/ig.test/nodeJs/test'
+let g:netrw_dirhist_8='/Users/geeker/Codes/iOShell/.git'
+let g:netrw_dirhist_9='/Users/geeker/Codes/YanTaiWriting/scripts'
