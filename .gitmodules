@@ -1,0 +1,48 @@
+[submodule "vim/bundle/xml.vim"]
+	path = vim/bundle/xml.vim
+	url = git@github.com:othree/xml.vim.git
+[submodule "vim/bundle/vim-matchit"]
+	path = vim/bundle/vim-matchit
+	url = git@github.com:edsono/vim-matchit.git
+[submodule "vim/bundle/vim-fugitive"]
+	path = vim/bundle/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule "vim/bundle/vim-javascript"]
+	path = vim/bundle/vim-javascript
+	url = git@github.com:vimer/vim-javascript.git
+[submodule "vim/bundle/vim-airline"]
+	path = vim/bundle/vim-airline
+	url = git@github.com:bling/vim-airline.git
+[submodule "vim/bundle/ctrlp.vim"]
+	path = vim/bundle/ctrlp.vim
+	url = git@github.com:kien/ctrlp.vim.git
+[submodule "vim/bundle/gundo.vim"]
+	path = vim/bundle/gundo.vim
+	url = git@github.com:sjl/gundo.vim.git
+[submodule "vim/bundle/vim-signify"]
+	path = vim/bundle/vim-signify
+	url = git@github.com:mhinz/vim-signify.git
+[submodule "vim/bundle/vim-bufferline"]
+	path = vim/bundle/vim-bufferline
+	url = git@github.com:bling/vim-bufferline.git
+[submodule "vim/bundle/unite.vim"]
+	path = vim/bundle/unite.vim
+	url = git@github.com:Shougo/unite.vim.git
+[submodule "vim/bundle/vim-go"]
+	path = vim/bundle/vim-go
+	url = git@github.com:fatih/vim-go.git
+[submodule "vim/bundle/tagbar"]
+	path = vim/bundle/tagbar
+	url = git@github.com:majutsushi/tagbar.git
+[submodule "vim/bundle/html5.vim"]
+	path = vim/bundle/html5.vim
+	url = git@github.com:vimer/html5.vim.git
+[submodule "vim/bundle/vim-css3-syntax"]
+	path = vim/bundle/vim-css3-syntax
+	url = git@github.com:hail2u/vim-css3-syntax.git
+[submodule "vim/bundle/css.vim"]
+	path = vim/bundle/css.vim
+	url = git@github.com:JulesWang/css.vim.git
+[submodule "vim/bundle/undotree"]
+	path = vim/bundle/undotree
+	url = git@github.com:mbbill/undotree.git
