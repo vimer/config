@@ -8,8 +8,4 @@
 
 set showmatch
 set lbr
-nnoremap j gj
-nnoremap k gk
-xnoremap j gj
-xnoremap k gk
 
