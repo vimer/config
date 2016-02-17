@@ -90,7 +90,7 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Desktop</string>
+	<string>~/config/iterm2</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -100,9 +100,9 @@
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
 	<key>NSWindow Frame Preferences</key>
-	<string>425 325 924 485 0 0 1440 877 </string>
+	<string>417 1367 924 485 -172 900 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>173 357 570 451 0 0 1440 877 </string>
+	<string>162 91 650 501 0 0 1440 877 </string>
 	<key>NeverWarnAboutShortLivedSessions_45F203AA-0625-4570-99C1-4D8761F4A745</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -853,7 +853,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>457720783.95328498</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>457720783.95349902</real>
+	<real>475071095.28470701</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -902,7 +902,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/geeker/.config/iterm2</string>
+	<string>/Users/geeker/config/iterm2</string>
 	<key>PromptOnQuit</key>
 	<true/>
 	<key>QuitWhenAllWindowsClosed</key>
@@ -918,7 +918,9 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-07-04T16:39:41Z</date>
+	<date>2016-01-22T08:57:02Z</date>
+	<key>SUSkippedVersion</key>
+	<string>2.1.4</string>
 	<key>SavePasteHistory</key>
 	<true/>
 	<key>ShowBookmarkName</key>
@@ -958,7 +960,7 @@
 	<key>WindowStyle</key>
 	<integer>0</integer>
 	<key>WordCharacters</key>
-	<string>，</string>
+	<string>,</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
 	<key>findRegex_iTerm</key>

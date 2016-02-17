@@ -107,7 +107,7 @@ alias grep='grep --color=auto'
 alias infogeeker='ssh root@114.215.173.43'
 alias dlj_remote_145='ssh root@223.4.33.145'
 alias dlj_local_252='ssh dlj@192.168.1.252'
-alias linode='ssh root@139.162.29.91'
+alias linode='ssh nowall@139.162.34.37'
 
 #alias '..'='cd ..'
 #alias -g ...='cd ../..'
@@ -168,5 +168,4 @@ bindkey "\e\e" sudo-command-line
 export GOPATH=~/Codes/Go/addin/:~/Codes/Go/
 export PATH=$PATH:~/Codes/Go/addin/bin:/usr/local/mysql/bin/
 
-export NVM_DIR="/Users/geeker/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
