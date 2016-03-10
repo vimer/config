@@ -108,7 +108,7 @@ alias infogeeker='ssh root@114.215.173.43'
 alias dlj_remote_145='ssh root@223.4.33.145'
 alias dlj_local_252='ssh dlj@192.168.1.252'
 alias linode='ssh root@139.162.44.28'
-alias cpa='ssh root@120.25.81.203'
+alias cpa='ssh developer@120.25.81.203'
 
 #alias '..'='cd ..'
 #alias -g ...='cd ../..'
@@ -149,6 +149,7 @@ gp() {
 
 #路径别名 进入相应的路径时只要 cd ~xxx
 hash -d cb="/home/cb/"
+hash -d bt="/opt/prj/btclass/servers/"
 hash -d www="/usr/local/nginx/html/"
 
 setopt extended_glob
