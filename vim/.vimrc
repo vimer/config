@@ -228,7 +228,7 @@ imap <M-<> <><esc>i
 
 "inoremap ( ()<ESC>i
 "inoremap [ []<ESC>i
-"inoremap { {}<ESC>i
+inoremap { {}<ESC>i
 ""inoremap < <><ESC>i "打开后会对html有影响
 "inoremap " ""<ESC>i
 "<@Brackets Config End@>
