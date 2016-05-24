@@ -28,11 +28,13 @@ set nu!
 set ai!
 set showmatch "设置括号匹配模式
 let mapleader = ","
+set tabstop=4 "tab键为4个空格
+set shiftwidth=4
+set softtabstop=4
 "set cursorcolumn  "列显示
 set cmdheight=1
 set ts=4 "Tab为4个空格
 set sw=4
-set shiftwidth=4
 set backspace=2
 set lbr "单词间不能断行
 set shortmess=atI "启动不显示xx儿童的提示
@@ -294,6 +296,6 @@ let g:html5_aria_attributes_complete = 0
 let g:indent_guides_auto_colors = 0
 let g:indent_guides_guide_size = 1
 let g:indent_guides_start_level = 2
-hi IndentGuidesOdd  ctermbg=black
+hi IndentGuidesOdd  ctermbg=red
 hi IndentGuidesEven ctermbg=darkgrey
 """"
