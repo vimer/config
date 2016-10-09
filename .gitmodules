@@ -64,3 +64,6 @@
 [submodule "vim/bundle/dash.vim"]
 	path = vim/bundle/dash.vim
 	url = https://github.com/rizzatti/dash.vim.git
+[submodule "vim/bundle/vim-es6"]
+	path = vim/bundle/vim-es6
+	url = https://github.com/isRuslan/vim-es6.git
