@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/opt/prj/btclass/servers/server-api-v1/common/user'
+let g:netrw_dirhist_2='/opt/prj/btclass/servers/server-api-v1'
+let g:netrw_dirhist_3='/opt/prj/btclass/servers/server-api-v1/views/signinsys'
+let g:netrw_dirhist_4='/opt/prj/ActivityRobot/lib'
+let g:netrw_dirhist_5='/opt/prj/ActivityRobot/public/javascripts/src'
+let g:netrw_dirhist_6='/opt/prj/ActivityRobot/node_modules/wechat4u'
+let g:netrw_dirhist_7='/opt/prj/btclass/servers/server-api-v1/views/supervise/tpls/classManagement/notify'
+let g:netrw_dirhist_8='/opt/prj/btclass/servers/server-api-v1/views/jxy/scripts'
