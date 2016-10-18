@@ -12,7 +12,7 @@ source $ZSH/oh-my-zsh.sh
 #RPROMPT='%{[32m%}@%{[10m%}%n'
 #PROMPT="%{[37m%}`print %~'\n$'`%{[33m%}`/sbin/ifconfig eth1 | grep "inet addr" | sed -e 's/^.*inet addr:\(.*\) Bcast.*$/\1/' | awk -F '.' '{print $4}'`%{[32m%}>>"
 #autoload colors
-#export EDITOR=emacs
+export EDITOR=emacs
 
 ##关于历史纪录的配置
 ## number of lines kept in history
