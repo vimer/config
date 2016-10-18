@@ -16,15 +16,15 @@ source $ZSH/oh-my-zsh.sh
 autoload colors
 export EDITOR=emacs
 
-##关于历史纪录的配置
-# number of lines kept in history
-#export HISTSIZE=10000
-# # number of lines saved in the history after logout
-#export SAVEHIST=10000
-# # location of history
-#export HISTFILE=~/.zhistory
-# # append command to history file once executed
-#setopt INC_APPEND_HISTORY
+#关于历史纪录的配置
+#number of lines kept in history
+export HISTSIZE=10000
+# number of lines saved in the history after logout
+export SAVEHIST=10000
+# location of history
+export HISTFILE=~/.zhistory
+# append command to history file once executed
+setopt INC_APPEND_HISTORY
 
 #Emacs风格键绑定
 bindkey -e
@@ -35,32 +35,32 @@ bindkey "\e[3~" delete-char
 #WORDCHARS='*?_-[]~=&;!#$%^(){}<>'
 
 ##自动补全功能
-#setopt AUTO_LIST
-#setopt AUTO_MENU
-#setopt MENU_COMPLETE
+setopt AUTO_LIST
+setopt AUTO_MENU
+setopt MENU_COMPLETE
 
-#autoload -U compinit
-#compinit
+autoload -U compinit
+compinit
 
-## Completion caching
-#zstyle ':completion::complete:*' use-cache on
-#zstyle ':completion::complete:*' cache-path .zcache
-##zstyle ':completion:*:cd:*' ignore-parents parent pwd
+# Completion caching
+zstyle ':completion::complete:*' use-cache on
+zstyle ':completion::complete:*' cache-path .zcache
+#zstyle ':completion:*:cd:*' ignore-parents parent pwd
 
-##Completion Options
-#zstyle ':completion:*:match:*' original only
-#zstyle ':completion::prefix-1:*' completer _complete
-#zstyle ':completion:predict:*' completer _complete
-#zstyle ':completion:incremental:*' completer _complete _correct
-#zstyle ':completion:*' completer _complete _prefix _correct _prefix _match _approximate
+#Completion Options
+zstyle ':completion:*:match:*' original only
+zstyle ':completion::prefix-1:*' completer _complete
+zstyle ':completion:predict:*' completer _complete
+zstyle ':completion:incremental:*' completer _complete _correct
+zstyle ':completion:*' completer _complete _prefix _correct _prefix _match _approximate
 
-## Path Expansion
-#zstyle ':completion:*' expand 'yes'
-#zstyle ':completion:*' squeeze-shlashes 'yes'
-#zstyle ':completion::complete:*' '\\'
+# Path Expansion
+zstyle ':completion:*' expand 'yes'
+zstyle ':completion:*' squeeze-shlashes 'yes'
+zstyle ':completion::complete:*' '\\'
 
-#zstyle ':completion:*:*:*:default' menu yes select
-#zstyle ':completion:*:*:default' force-list always
+zstyle ':completion:*:*:*:default' menu yes select
+zstyle ':completion:*:*:default' force-list always
 
 ## GNU Colors 需要/etc/DIR_COLORS文件 否则自动补全时候选菜单中的选项不能彩色显示
 [ -f /etc/DIR_COLORS ] && eval $(dircolors -b /etc/DIR_COLORS)
