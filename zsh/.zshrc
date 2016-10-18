@@ -2,8 +2,8 @@
 export ZSH=~/.oh-my-zsh
 
 #ZSH_THEME="amuse"
-ZSH_THEME="avit"
-#ZSH_THEME='bira'
+#ZSH_THEME="avit"
+ZSH_THEME='bira'
 #ZSH_THEME='blinks'
 #ZSH_THEME='bureau'
 
