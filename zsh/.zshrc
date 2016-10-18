@@ -16,13 +16,13 @@ export EDITOR=emacs
 
 ##关于历史纪录的配置
 # number of lines kept in history
-export HISTSIZE=10000
+#export HISTSIZE=10000
 # # number of lines saved in the history after logout
-export SAVEHIST=10000
+#export SAVEHIST=10000
 # # location of history
-export HISTFILE=~/.zhistory
+#export HISTFILE=~/.zhistory
 # # append command to history file once executed
-setopt INC_APPEND_HISTORY
+#setopt INC_APPEND_HISTORY
 
 #Emacs风格键绑定
 bindkey -e
@@ -30,12 +30,12 @@ bindkey -e
 bindkey "\e[3~" delete-char
 
 #以下字符视为单词的一部分
-WORDCHARS='*?_-[]~=&;!#$%^(){}<>'
+#WORDCHARS='*?_-[]~=&;!#$%^(){}<>'
 
 ##自动补全功能
-setopt AUTO_LIST
-setopt AUTO_MENU
-setopt MENU_COMPLETE
+#setopt AUTO_LIST
+#setopt AUTO_MENU
+#setopt MENU_COMPLETE
 
 #autoload -U compinit
 #compinit
@@ -117,27 +117,27 @@ alias rm='rm -i'
 #alias dlj_remote_145='ssh root@121.40.26.238'
 #alias dlj_local_252='ssh dlj@192.168.1.252'
 #alias linode='ssh root@139.162.44.28'
-#alias cpa='ssh root@120.25.81.203'
+alias cpa='ssh root@120.25.81.203'
 
 alias '..'='cd ..'
 alias -g ...='cd ../..'
 alias -g ....='cd ../../..'
 alias -g .....='cd ../../../..'
 alias d='dirs -v'
-#alias 'dirs'='dirs -v'
+alias 'dirs'='dirs -v'
 #alias cbmake='rm -rf CMakeCache.txt;cmake .;make' 
 #alias cbsvn='svn ci -m 'fix'' 
-#alias cbgit='git commit -a -m 'fix';git push' 
+alias cbgit='git commit -a -m 'fix';git push' 
 #alias chfjx='git checkout fjx@developer'
-#alias chmaster='git checkout master'
+alias cbmaster='git checkout master'
 #alias cdv1='cd /opt/prj/btclass/servers/server-api-v1/'
 #alias node='node --harmony'
 #alias node-dev='node-dev --harmony'
 alias vi='vim'
 #alias .gdb="gdb -x ~/.config/gdb.config "
-#c() {
-	#cd "$@" ; ll
-#}
+c() {
+	cd "$@" ; ll
+}
 #..() {
 	#cd ..;ll
 #}
