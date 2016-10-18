@@ -2,8 +2,10 @@
 export ZSH=~/.oh-my-zsh
 
 #ZSH_THEME="amuse"
-#ZSH_THEME="avit"
-ZSH_THEME='bira'
+ZSH_THEME="avit"
+#ZSH_THEME='bira'
+#ZSH_THEME='blinks'
+#ZSH_THEME='bureau'
 
 plugins=(git)
 
@@ -11,7 +13,7 @@ source $ZSH/oh-my-zsh.sh
 #dirs -v 列出最近的目录 cd -n 进入相应目录
 #RPROMPT='%{[32m%}@%{[10m%}%n'
 #PROMPT="%{[37m%}`print %~'\n$'`%{[33m%}`/sbin/ifconfig eth1 | grep "inet addr" | sed -e 's/^.*inet addr:\(.*\) Bcast.*$/\1/' | awk -F '.' '{print $4}'`%{[32m%}>>"
-#autoload colors
+autoload colors
 export EDITOR=emacs
 
 ##关于历史纪录的配置
@@ -61,8 +63,8 @@ bindkey "\e[3~" delete-char
 #zstyle ':completion:*:*:default' force-list always
 
 ## GNU Colors 需要/etc/DIR_COLORS文件 否则自动补全时候选菜单中的选项不能彩色显示
-#[ -f /etc/DIR_COLORS ] && eval $(dircolors -b /etc/DIR_COLORS)
-#export ZLSCOLORS="${LS_COLORS}"
+[ -f /etc/DIR_COLORS ] && eval $(dircolors -b /etc/DIR_COLORS)
+export ZLSCOLORS="${LS_COLORS}"
 #zmodload zsh/complist
 #zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 #zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
