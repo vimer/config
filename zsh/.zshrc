@@ -24,18 +24,18 @@ export HISTFILE=~/.zhistory
 # # append command to history file once executed
 setopt INC_APPEND_HISTORY
 
-##Emacs风格键绑定
-#bindkey -e
-##设置DEL键为向后删除
-#bindkey "\e[3~" delete-char
+#Emacs风格键绑定
+bindkey -e
+#设置DEL键为向后删除
+bindkey "\e[3~" delete-char
 
-##以下字符视为单词的一部分
-#WORDCHARS='*?_-[]~=&;!#$%^(){}<>'
+#以下字符视为单词的一部分
+WORDCHARS='*?_-[]~=&;!#$%^(){}<>'
 
 ##自动补全功能
-#setopt AUTO_LIST
-#setopt AUTO_MENU
-#setopt MENU_COMPLETE
+setopt AUTO_LIST
+setopt AUTO_MENU
+setopt MENU_COMPLETE
 
 #autoload -U compinit
 #compinit
@@ -96,9 +96,9 @@ setopt INC_APPEND_HISTORY
 #autoload run-help
 
 ##命令别名
-#alias cp='cp -i'
-#alias mv='mv -i'
-#alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
 
 ##go语言
 #alias gb='go build -gcflags "-N -l"'
@@ -119,11 +119,11 @@ setopt INC_APPEND_HISTORY
 #alias linode='ssh root@139.162.44.28'
 #alias cpa='ssh root@120.25.81.203'
 
-##alias '..'='cd ..'
-##alias -g ...='cd ../..'
-##alias -g ....='cd ../../..'
-##alias -g .....='cd ../../../..'
-#alias d='dirs -v'
+alias '..'='cd ..'
+alias -g ...='cd ../..'
+alias -g ....='cd ../../..'
+alias -g .....='cd ../../../..'
+alias d='dirs -v'
 #alias 'dirs'='dirs -v'
 #alias cbmake='rm -rf CMakeCache.txt;cmake .;make' 
 #alias cbsvn='svn ci -m 'fix'' 
@@ -133,7 +133,7 @@ setopt INC_APPEND_HISTORY
 #alias cdv1='cd /opt/prj/btclass/servers/server-api-v1/'
 #alias node='node --harmony'
 #alias node-dev='node-dev --harmony'
-#alias vi='vim'
+alias vi='vim'
 #alias .gdb="gdb -x ~/.config/gdb.config "
 #c() {
 	#cd "$@" ; ll
