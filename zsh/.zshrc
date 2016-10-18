@@ -1,7 +1,16 @@
 #新环境使用chsh -s /bin/zsh 来改变默认shell，重启有效
+export ZSH=~/.oh-my-zsh
+
+#ZSH_THEME="amuse"
+#ZSH_THEME="avit"
+ZSH_THEME='bira'
+
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
 #dirs -v 列出最近的目录 cd -n 进入相应目录
-RPROMPT='%{[32m%}@%{[10m%}%n'
-PROMPT="%{[37m%}`print %~'\n$'`%{[33m%}`/sbin/ifconfig eth1 | grep "inet addr" | sed -e 's/^.*inet addr:\(.*\) Bcast.*$/\1/' | awk -F '.' '{print $4}'`%{[32m%}>>"
+#RPROMPT='%{[32m%}@%{[10m%}%n'
+#PROMPT="%{[37m%}`print %~'\n$'`%{[33m%}`/sbin/ifconfig eth1 | grep "inet addr" | sed -e 's/^.*inet addr:\(.*\) Bcast.*$/\1/' | awk -F '.' '{print $4}'`%{[32m%}>>"
 autoload colors
 export EDITOR=emacs
 
@@ -78,8 +87,8 @@ zstyle ':completion:*:warnings' format $'\e[01;31m -- No Matches Found --\e[0m'
 
 ##行编辑高亮模式 {{{ # Ctrl+@ 设置标记，标记和光标点之间为 region 
 zle_highlight=(region:bg=magenta #选中区域 
-                special:bold #特殊字符  
-                isearch:underline) #搜索时使用的关键字 
+				special:bold #特殊字符  
+				isearch:underline) #搜索时使用的关键字 
 #}}}
 
 #[Esc][h] man 当前命令时，显示简短说明 
@@ -168,7 +177,9 @@ sudo-command-line() {
 zle -N sudo-command-line
 bindkey "\e\e" sudo-command-line
 
-export GOPATH=~/Codes/Go/addin/:~/Codes/Go/
+#export GOPATH=~/Codes/Go/addin/:~/Codes/Go/
 export PATH=$PATH:~/Codes/Go/addin/bin:/usr/local/mysql/bin/
 
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
