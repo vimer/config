@@ -1,14 +1,4 @@
 let g:netrw_dirhistmax  =10
-<<<<<<< HEAD
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/Users/geeker/Projects/Sierra-ionic2/src/pages/change-password'
-=======
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/opt/prj/WeiXinRobot/src/interface'
-let g:netrw_dirhist_2='/opt/prj/btclass/servers/server-cronjob/api'
-let g:netrw_dirhist_3='/var/www/html/edusoho/src/Topxia/Service/User/AuthProvider'
-let g:netrw_dirhist_4='/var/www/html/edusoho/src/Topxia/WebBundle/Resources/views'
-let g:netrw_dirhist_5='/home/developer/Projects/EdusohoFix/views/PasswordReset'
-let g:netrw_dirhist_6='/opt/prj/btclass/servers/server-cronjob/api'
-let g:netrw_dirhist_7='/opt/prj/CronjobSignin/node_modules'
->>>>>>> bc6ab150a3b6ce9080dca5c26fd9ff5aaa6703a0
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/Users/geeker/Projects/CronjobSignin/node_modules'
+let g:netrw_dirhist_2='/Users/geeker/Projects/dolphin/routes'
