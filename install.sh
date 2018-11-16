@@ -8,3 +8,5 @@ ln -s ./config/tmux/.tmux.conf ~/.tmux.conf
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 rm -rf ~/.zshrc
 ln -s ./config/zsh/.zshrc ~/.zshrc
+zsh
+tmux
