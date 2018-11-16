@@ -1,4 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/Users/geeker/Projects/CronjobSignin/node_modules'
-let g:netrw_dirhist_2='/Users/geeker/Projects/dolphin/routes'
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/geeker/Projects/@Server/dove/controllers'
+let g:netrw_dirhist_2='/Users/geeker/Projects/@wechatBot/wechaty/src'
+let g:netrw_dirhist_3='/Users/geeker/Projects/fg-tools/test'
+let g:netrw_dirhist_4='/Users/geeker/Projects/@Server/dove/controllers'
+let g:netrw_dirhist_5='/Users/geeker/Projects/@Server/dove/bin'
+let g:netrw_dirhist_6='/Users/geeker/Projects/@Server/Sierra/controllers/user'
+let g:netrw_dirhist_7='/Users/geeker/Projects/PersonalInfo/views/tpls/classManagement/notify'
+let g:netrw_dirhist_8='/Users/geeker/Projects/PersonalInfo/routes'
+let g:netrw_dirhist_9='/Users/geeker/Projects/PersonalInfo'
